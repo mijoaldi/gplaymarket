@@ -1,0 +1,62 @@
+html {
+    background-color: #58585898;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.container .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .row .col-40 {
+    width: 100%;
+    height: 89vh;
+    background-image: url("https://miescapedigital.com/wp-content/uploads/2020/05/C%C3%B3mo-montar-una-tienda-en-l%C3%ADnea.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin: 50px 10px 0px 40px;
+    border-radius: 15px;
+}
+
+.container .row .col-60 {
+    width: 100%;
+    height: 100vh;
+    padding: 60px;
+}
+
+.form-floating {
+    margin-bottom: 16px;
+}
+
+.form-floating:nth-child(1) {
+    width: 50%;
+}
+
+.form-floating:nth-child(2) {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.mb-3:nth-child(1) .form-select {
+    margin-top: 50px;
+}
+
+.mb-3:nth-child(2) .form-control {
+    margin-top: 170px;
+}
