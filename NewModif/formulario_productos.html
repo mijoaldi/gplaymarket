@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactenos validacion</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <form class="was-validated">
+
+            <div class="mb-3">
+                <select class="form-select" required aria-label="select example">
+                <option value="">Categorias de productos</option>
+                <option value="1">Marvel</option>
+                <option value="2">DC</option>
+                <option value="3">McFARLANE</option>
+                <option value="4">Funco</option>
+                <option value="5">Bandai Namco</option>
+                <option value="6">Comics</option>
+                <option value="7">Accesorios</option>
+              </select>
+                <div class="invalid-feedback">Seleccione una categoria</div>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">Nombre del producto</label>
+                <input type="text" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                    ingrese un nombre
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <input type="file" class="form-control" aria-label="file example" required>
+                <div class="invalid-feedback">Seleccione un archivo</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="validationTextarea" class="form-label">Descripcion del producto</label>
+                <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Ingrese la descripción" required></textarea>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">Cantidad</label>
+                <input type="number" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                    ingrese un valor
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">Precio</label>
+                <input type="number" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                    ingrese un valor
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <button class="btn-primary" type="submit" enabled="true">enviar formulario</button>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+
+</html>
