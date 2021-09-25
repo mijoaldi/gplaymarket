@@ -1,7 +1,6 @@
 <?php 
 
-$conexion=mysqli_connect("localhost", "root", "Alejo0501", "gplaymarket");
-
+$conexion=mysqli_connect("localhost", "root", "Gplay1234", "gplaymarket");
 
 // if($conexion){
 //     echo 'conectado exitosamente a la base de datos';
