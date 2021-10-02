@@ -1,0 +1,44 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/44/78/08/44780813bc4ea2be8f505759496a9ae3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+body .container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: rgba(58, 141, 204, 0.932);
+    width: 40%;
+}
+
+.was-validated {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.col-md-3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mb-3 .form-label {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: smaller;
+}
+
+.mb-3 .btn-primary {
+    background-color: rgb(37, 36, 35);
+}
+
+.col-md-3 .form-label {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: smaller;
+}
+
+.invalid-feedback {
+    font-style: inherit;
+}
