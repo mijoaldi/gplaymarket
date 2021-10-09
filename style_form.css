@@ -7,8 +7,32 @@ body {
 body .container {
     margin-top: 60px;
     margin-bottom: 60px;
-    background-color: rgba(58, 141, 204, 0.932);
+    justify-content: center;
+    backdrop-filter: blur(10px);/*DESENFOQUE*/
+    background-color: rgb(141, 192, 186);
     width: 40%;
+}
+
+.botton {
+
+    padding: 10px 40px;
+
+    margin-top: 40px;
+
+    border: none;
+
+    font-size: 14px;
+
+    background-color: #36948f;
+
+    color: white;
+
+    cursor: pointer;
+
+    outline: none;
+
+    justify-content: center;
+
 }
 
 .was-validated {
