@@ -113,17 +113,17 @@
                 <!--login-->
                 <form action="" class="formulario__login">
                     <h2>Iniciar Sesión</h2>
-                    <input type="email" placeholder="Correo Electrónico">
-                    <input type="password" placeholder="Contraseña">
+                    <input type="email" placeholder="Correo Electrónico" required>
+                    <input type="password" placeholder="Contraseña" required>
                     <button>Entrar</button>
                 </form>
                 <!--register-->
                 <form action="registro_usuario_be.php" method="POST" class="formulario__register">
                     <h2>Registrarse</h2>
-                    <input type="text" placeholder="Nombre Completo" name="nombre_completo">
-                    <input type="email" placeholder="Correo Electrónico" name="correo">
-                    <input type="text" placeholder="Usuario" name="usuario">
-                    <input type="password" placeholder="Contraseña" name="clave">
+                    <input type="text" placeholder="Nombre Completo" name="nombre_completo" required>
+                    <input type="email" placeholder="Correo Electrónico" name="correo"required>
+                    <input type="text" placeholder="Usuario" name="usuario" required>
+                    <input type="password" placeholder="Contraseña" name="clave" required>
                     <button>Registrarse</button>
                 </form>
             </div>
