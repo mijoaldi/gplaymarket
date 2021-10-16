@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=img src=" ... " class="img-thumbnail " alt="... ", initial-scale=1.0">
-    <title>Datos</title>
-    <!-- CSS only -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos </title>
+    <link rel="stylesheet" href="./Recursos/css/style_form.css">
+    <link rel="stylesheet" href="./Recursos/css/styloLoginRegis.css">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
 </head>
@@ -22,61 +26,66 @@
     <form action="llenar datos">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <!-- <div class="col">
                     <img src="./Recursos/imagenes/avatar.png" alt="imagen del usuario">
                     <BR></BR>
-                </div>
+                </div> -->
                 <div class="col">
-                    <label for="id">NOMBRES</label>
-                    <input type="text" id="NOMBRES" name="NOMBRE_USUARIO" required>
+                    <br></br>
+                    <!-- <label for="id">NOMBRES</label> -->
+                    <input type="text" id="NOMBRES" name="NOMBRE_USUARIO" placeholder="NOMBRES " required>
                     <BR></BR>
 
-                    <label for="id">CEDULA</label>
-                    <input type="text" id="CEDULA" name="CEDULA_USUARIO" required>
+                    <!-- <label for="id">CEDULA</label> -->
+                    
+                    <input type="text" id="CEDULA" name="CEDULA_USUARIO" placeholder="CEDULA " required>
                     <BR></BR>
 
-                    <label for="id">TELEFONO</label>
-                    <input type="tel" id="TELEFONO" name="TELEFONO_USUSARIO" required>
+                    <!-- <label for="id">TELEFONO</label> -->
+                    <input type="tel" id="TELEFONO" name="TELEFONO_USUSARIO" placeholder="TELEFONO " required>
                     <BR></BR>
 
-                    <label for="id">DEPARTAMENTO</label>
-                    <input type="text" id="DEPARTAMENTO" name="DEPARTAMENTO_USUARIO" size="20" required>
+                    <input type="text" id="PAIS" name="PAIS" placeholder="PAIS" required>
                     <BR></BR>
 
-                    <label for="id">BARRIO </label>
-                    <input type="text" id="BARRIO" name="BARRIO_USUARIO" size="25" required>
+                    <!-- <label for="id">DEPARTAMENTO</label> -->
+                    <input type="text" id="DEPARTAMENTO" name="DEPARTAMENTO_USUARIO" size="20" placeholder="DEPARTAMENTO" required>
                     <BR></BR>
+                    <!-- <label for="id">BARRIO </label> -->
                 </div>
 
                 <div class="col">
-                    <label for="id">APELLIDOS</label>
-                    <input type="text" id="APELLIDO" name="APELLIDO_USUARIO" required>
+                    <br> </br>
+                    <!-- <label for="id">APELLIDOS</label> -->
+                    <input type="text" id="APELLIDO" name="APELLIDO_USUARIO" placeholder="APELLIDOS" required>
                     <BR></BR>
 
-                    <label for="id">CORREO</label>
-                    <input type="email" id="CORREO" name="CORREO_USUARIO" required>
+                    <!-- <label for="id">CORREO</label> -->
+                    <input type="email" id="CORREO" name="CORREO_USUARIO"  placeholder="CORREO" required >
                     <BR></BR>
 
-                    <label for="id">CIUDAD</label>
-                    <input type="text" id="CIUDAD" name="CIUDAD_USUARIO" required>
+                    <input type="text" id="DIRECCION" name="DIRECCION_USUARIO" placeholder="DIRECCIÓN" required>
                     <BR></BR>
+                    <!-- <label for="id">CIUDAD</label> -->
+                    <input type="text" id="CIUDAD" name="CIUDAD_USUARIO" placeholder="CIUDAD" required>
+                    <BR></BR>
+                    <input type="text" id="BARRIO" name="BARRIO_USUARIO" size="25" placeholder="BARRIO" required>
+                    <br>
 
-                    <label for="id">MUNICIPIO</label>
-                    <input type="text" id="MUNICIPIO" name="MUNICIPIO_USUARIO" required>
-                    <BR></BR>
+                    <!-- <label for="id">MUNICIPIO</label>
+                    <input type="text" id="MUNICIPIO" name="MUNICIPIO_USUARIO" placeholder="MUNICIPIO" required>
+                    <BR></BR> -->
 
-                    <label for="id">DIRECCION</label>
-                    <input type="text" id="DIRECCION" name="DIRECCION_USUARIO" required>
-                    <BR></BR>
+                    <!-- <label for="id">DIRECCION</label> -->
+                    
                 </div>
-
             </div>
-
+            <center>
+                <button class="botton" type="submit">Guardar</button>
+            </center>
+            <br>
         </div>
-        <center>
-            <button class="btn btn-primary" type="submit">Guardar cambios</button>
-        </center>
-
+        
     </form>
 
 
